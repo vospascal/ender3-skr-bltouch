@@ -28,7 +28,7 @@ Copy "marlin2.0\.pio\build\STM32F103RC_btt_512K\firmware.bin" to sdcard
 
 
 ####power up printer 
-Printer will load firmware and you ready to go
+Printer will load firmware <u>initialize eeprom</u> and you ready to go
 
 
 
