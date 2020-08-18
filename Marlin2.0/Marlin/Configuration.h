@@ -743,8 +743,8 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 // #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 670 }
-
+// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 670 } // default new motor
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 715 } // new calulated
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
@@ -752,8 +752,8 @@
  */
 // #define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 25 }
 // #define DEFAULT_MAX_FEEDRATE          { 500, 500, 20, 60 }
-#define DEFAULT_MAX_FEEDRATE          { 500, 500, 20, 600 }
-
+//#define DEFAULT_MAX_FEEDRATE          { 500, 500, 20, 600 } // default new motor
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 20, 715 }// new calulated
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
